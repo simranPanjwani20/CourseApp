@@ -1,0 +1,62 @@
+.particularCourse{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.courdetailmaincard{
+    padding: 1%;
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin-top: 1%;
+}
+img{
+    width: 40%;
+}
+.courseDetailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.courseName{
+    text-transform: uppercase;
+}
+.namep{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.enroll-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 5, 195);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+  }
+  
+  .enroll-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  }
+  @media screen and (max-width: 768px) {
+    img{
+        width: 100%;
+    }
+    .particularCourse{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+  }

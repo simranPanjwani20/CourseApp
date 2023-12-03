@@ -1,0 +1,23 @@
+.courseenroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.enrollcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+    .enrollcont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+  }
